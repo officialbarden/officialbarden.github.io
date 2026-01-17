@@ -1,0 +1,78 @@
+body {
+    text-align: center;
+}
+
+button {
+    border: 0px;
+}
+
+.container {
+    margin: 0;
+    display: flex;
+}
+
+.MyProjectWidget {
+    width: 200px;
+    margin: 5px;
+    padding: 10px;
+    text-align: left;
+    border-radius: 5px;
+    background: #4A4A4A;
+    display: inline-block;
+    transform: scale(1);
+}
+
+.MyProjectWidget:hover {
+    background-color: #383838;
+    border: 100px;
+    box-shadow: 5px 5px;
+    transition: border 2s;
+    cursor: pointer;
+}
+
+.MyProjectWidget_Title {
+    font-size: 20px;
+}
+.MyProjectWidget_Desc {
+    font-size: 30px;
+}
+.MyProjectWidget_Downloads {
+    padding: 10px;
+    font-size: 10px;
+}
+.MyProjectWidget_Follows {
+    padding: 10px;
+    font-size: 10px;
+}
+.MyProjectWidget_UploadDate {
+    padding: 10px;
+    font-size: 10px;
+}
+
+.MyUtilityWidget {
+    width: 200px;
+    margin: 3px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: gray;
+    display: inline-block;
+    text-align: left;
+    transform: scale(1.0);
+}
+
+.MyUtilityWidget:hover {
+    background-color: #D6D6D6;
+    border: 100px;
+    box-shadow: 5px 5px;
+    transition: border 2s;
+    cursor: pointer;
+}
+
+
+.MyUtilityWidget_Name {
+    font-size: 25px;
+}
+
+.MyUtilityWidget_Description {
+    font-size: 10px;
+}
